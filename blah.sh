@@ -22,8 +22,8 @@ echo ${dest[@]}
 declare -a letterO=(true true true true true true true true false false false false false true true true true true true true true)
 declare -a space=(false false false false false false false)
 declare -a letterI=(true true true true true true true)
-declare -a letterA=(true true true true true true true true false false true false false false true true true true true true true)
-word=( "${letterA[@]}" "${letterI[@]}" "${space[@]}" "${letterO[@]}" )
+# declare -a letterA=(true true true true true true true true false false true false false false true true true true true true true)
+word=( "${letterI[@]}" "${space[@]}" "${letterO[@]}" )
 # echo ${array2[1]}
 # typeset -A animals
 # alphabet=( ["moo"]="cow" ["O"]=$letterO)
